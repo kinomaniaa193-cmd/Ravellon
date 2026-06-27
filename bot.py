@@ -99,7 +99,7 @@ COUNTRIES_DATA = {
 COUNTRIES_KEYS = list(COUNTRIES_DATA.keys())
 
 # РЕАЛИСТИЧНЫЙ КУРС ВАЛЮТ НА ИЮНЬ 2026 ГОДА
-EXCHANGE_RATES = {'KZT': 486.0, 'RUB': 95.0, 'BYN': 3.3, 'UAH': 45.0, 'USD': 1.0}
+EXCHANGE_RATES = {'KZT': 486.0, 'RUB': 77.0, 'BYN': 3.3, 'UAH': 45.0, 'USD': 1.0}
 CURRENCY_MAP = {'Казахстан': 'KZT', 'Россия': 'RUB', 'Беларусь': 'BYN', 'Украина': 'UAH'}
 
 def get_payment_methods(country):

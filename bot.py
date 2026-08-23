@@ -12,12 +12,12 @@ from datetime import datetime, timedelta
 import time
 
 # --- КОНФИГУРАЦИЯ БРЕНДА RAVELLON SHOP ---
-API_TOKEN = '8900426353:AAH21UIujStDfdSilq0ehq9aagIEiFlDG14'
+API_TOKEN = '8963842513:AAHGJhgYxezs_qtAa48RIbMdAHOkvcAZvv0'
 ADMIN_IDS = [1242288682, 8305624267, 7907584687, 8262824885]
 SHOP_NAME = "RAVELLON SHOP"
 MANAGER_USERNAME = "aleksandr_0941"
-INFO_CHANNEL = "https://t.me/Ravellnn"
-BOT_USERNAME = "Ravellnbot"  
+INFO_CHANNEL = "https://t.me/Ravelonn"
+BOT_USERNAME = "Ravelonn_bot"  
 
 # Прямая ссылка на изображение профиля
 MAIN_IMG = "https://ibb.co/gZxLnv8B"

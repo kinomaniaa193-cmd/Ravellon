@@ -12,7 +12,7 @@ from datetime import datetime, timedelta
 import time
 
 # --- КОНФИГУРАЦИЯ БРЕНДА RAVELLON SHOP ---
-API_TOKEN = '8963842513:AAHGJhgYxezs_qtAa48RIbMdAHOkvcAZvv0'
+API_TOKEN = '8837213680:AAHsYPH2bK3Vk2xlsC5D7z6UeSc8WMdsNgg'
 ADMIN_IDS = [1242288682, 8305624267, 7907584687, 8262824885]
 SHOP_NAME = "RAVELLON SHOP"
 MANAGER_USERNAME = "aleksandr_0943"

@@ -12,15 +12,15 @@ from datetime import datetime, timedelta
 import time
 
 # --- КОНФИГУРАЦИЯ БРЕНДА RAVELLON SHOP ---
-API_TOKEN = '8837213680:AAHsYPH2bK3Vk2xlsC5D7z6UeSc8WMdsNgg'
-ADMIN_IDS = [1242288682, 8305624267, 7907584687, 8262824885]
-SHOP_NAME = "RAVELLON SHOP"
-MANAGER_USERNAME = "aleksandr_0943"
-INFO_CHANNEL = "https://t.me/Ravelonn"
-BOT_USERNAME = "Ravelonn_bot"  
+API_TOKEN = '8835687372:AAGN5LFuWBzZX9HR4Z36BkdUCo4M7Ovwp_c'
+ADMIN_IDS = [8771415730, 8305624267, 7907584687 ]
+SHOP_NAME = "HYPEXO SHOP"
+MANAGER_USERNAME = "hypexxo_manager"
+INFO_CHANNEL = "https://t.me/hypeexo"
+BOT_USERNAME = "hypexxxoo_bot"  
 
 # Прямая ссылка на изображение профиля
-MAIN_IMG = "https://ibb.co/gZxLnv8B"
+MAIN_IMG = "https://ibb.co/9ky8Jcvt"
 
 # Реалистичный курс BTC/USD для расчёта оплаты
 BTC_USD_RATE = 70000.0

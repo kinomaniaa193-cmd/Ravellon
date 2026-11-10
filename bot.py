@@ -370,7 +370,7 @@ class Database:
             cursor = conn.cursor()
             
             # Проверяем, соответствуют ли существующие товары новому ценовому диапазону от 25$ до 70$ за 1г
-            has_old_prices = cursor.execute("SELECT COUNT(*) FROM products WHERE price > 45 OR price < 28").fetchone()[0]
+            has_old_prices = cursor.execute("SELECT COUNT(*) FROM products WHERE price > 38 OR price < 28").fetchone()[0]
             if has_old_prices > 0:
                 cursor.execute("DELETE FROM products")
                 cursor.execute("DELETE FROM stock")  # Очищаем старые остатки, чтобы витрина пересобралась
@@ -378,7 +378,7 @@ class Database:
             if cursor.execute("SELECT COUNT(*) FROM products").fetchone()[0] == 0:
                 for name in ALL_PRODUCT_NAMES:
                     # Базовая цена за 1 грамм теперь составляет от 25$ до 70$, что приближено к реальным ценам в рознице
-                    cursor.execute("INSERT INTO products (name, price) VALUES (?, ?)", (name, random.randint(28, 45)))
+                    cursor.execute("INSERT INTO products (name, price) VALUES (?, ?)", (name, random.randint(28, 38)))
             
             if cursor.execute("SELECT COUNT(*) FROM reviews").fetchone()[0] == 0:
                 self._shuffle_reviews_internal(conn)

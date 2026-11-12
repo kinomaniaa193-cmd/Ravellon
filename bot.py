@@ -12,12 +12,12 @@ from datetime import datetime, timedelta
 import time
 
 # --- КОНФИГУРАЦИЯ БРЕНДА RAVELLON SHOP ---
-API_TOKEN = '9113617466:AAH2GBbTbTozUpsiRzef88GMe6cgaQNTz-E'
+API_TOKEN = '9253921151:AAEn9zj5J2ZZch2VtMmvwr69zCinviE-uks'
 ADMIN_IDS = [8771415730, 8305624267, 7907584687 ]
 SHOP_NAME = "HYPEXO SHOP"
 MANAGER_USERNAME = "hypexxo_manager"
 INFO_CHANNEL = "https://t.me/hypeexo"
-BOT_USERNAME = "@Hypexxo1bot"  
+BOT_USERNAME = "@Hypeexo3bot"  
 
 # Прямая ссылка на изображение профиля
 MAIN_IMG = "https://ibb.co/9ky8Jcvt"
